@@ -1,10 +1,7 @@
 package AQS;
 
-import sun.rmi.runtime.Log;
-
 import java.util.concurrent.*;
 import java.util.logging.Logger;
-
 import static java.lang.Thread.sleep;
 
 public class CountDownLatchExample {
