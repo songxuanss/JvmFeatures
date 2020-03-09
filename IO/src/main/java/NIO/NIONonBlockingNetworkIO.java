@@ -1,6 +1,5 @@
 package NIO;
 
-import org.junit.Test;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -18,7 +17,6 @@ public class NIONonBlockingNetworkIO {
     static String outPath = "/home/pauls";
     static Logger logger = Logger.getLogger("nionetwork");
 
-    @Test
     public void client() throws IOException {
         // step 1: setup channel for socketconnection
         SocketChannel sChannel = SocketChannel.open(new InetSocketAddress("127.0.0.1", 9898));
