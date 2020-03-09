@@ -1,6 +1,6 @@
 package com.jitaida.paul;
 
-public class ProgramEnginer {
+public class ProgramEnginer implements Comparable{
     private String name;
     private int height;
     private int weight;
@@ -43,5 +43,10 @@ public class ProgramEnginer {
 
     public void setSkillRating(double skillRating) {
         this.skillRating = skillRating;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }
