@@ -4,8 +4,8 @@ import java.util.concurrent.*;
 import java.util.logging.Logger;
 
 /**
- * åŸå­æ“ä½œæ˜¯çº¿ç¨‹å®‰å…¨çš„
- * æ‰¹é‡æ“ä½œä¸æ˜¯çº¿ç¨‹å®‰å…¨çš„
+ * Ô­×Ó²Ù×÷ÊÇÏß³Ì°²È«µÄ
+ * ÅúÁ¿²Ù×÷²»ÊÇÏß³Ì°²È«µÄ
  */
 public class ConcurrentSkipListSetExample {
     public static ConcurrentSkipListSet<String> arrayList = new ConcurrentSkipListSet<String>();

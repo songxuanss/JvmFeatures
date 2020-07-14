@@ -44,7 +44,6 @@ public class ChannelWithMappedBuffer {
         FileChannel inChannel = null;
         FileChannel outChannel = null;
 
-
         inChannel = FileChannel.open(Paths.get(inPath), StandardOpenOption.READ);
         outChannel = FileChannel.open(Paths.get(outPath, "transfer"), StandardOpenOption.READ, StandardOpenOption.WRITE, StandardOpenOption.CREATE_NEW);
 

@@ -6,18 +6,18 @@ import java.util.concurrent.*;
 import java.util.logging.Logger;
 
 /**
- * 原理：
- * 每次添加删除元素，CopyOnWriteArrayList是在内存中开辟一块新的内存空间，把添加或者删除后的array地址指向给原来的变量
+ * ԭ����
+ * ÿ������ɾ��Ԫ�أ�CopyOnWriteArrayList�����ڴ��п���һ���µ��ڴ�ռ䣬�����ӻ���ɾ�����array��ַָ���ԭ���ı���
  *
  *
  * Disadvantage:
  * 1. Esay to meet young gc or full gc
- * 2. 不能马上获取最新的值
+ * 2. �������ϻ�ȡ���µ�ֵ
  *
  * Advantage:
- * 1. 读写分离，不需要锁操作，增加性能
- * 2. 保证最终一致性
- * 3. 开辟空间保证不冲突
+ * 1. ��д���룬����Ҫ����������������
+ * 2. ��֤����һ����
+ * 3. ���ٿռ䱣֤����ͻ
  */
 public class CopyOnWriteArrayListExample {
 

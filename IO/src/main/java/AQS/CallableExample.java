@@ -5,8 +5,8 @@ import java.util.concurrent.Callable;
 import static utils.IOUtil.gracefullyClose;
 
 /**
- * Callable æ˜¯æ³›å‹æ¥å£
- * Callable å¯ä»¥æœ‰çº¿ç¨‹è¿”å›å€¼ï¼Œä»¥åŠè·å–å¼‚å¸¸
+ * Callable ÊÇ·ºĞÍ½Ó¿Ú
+ * Callable ¿ÉÒÔÓĞÏß³Ì·µ»ØÖµ£¬ÒÔ¼°»ñÈ¡Òì³£
  */
 public class CallableExample implements Callable<String> {
     String input;

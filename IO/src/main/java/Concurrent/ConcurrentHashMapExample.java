@@ -6,7 +6,7 @@ import java.util.concurrent.*;
 import java.util.logging.Logger;
 
 /**
- * 线程安全，速度快
+ * �̰߳�ȫ���ٶȿ�
  */
 public class ConcurrentHashMapExample {
 

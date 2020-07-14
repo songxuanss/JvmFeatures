@@ -1,8 +1,5 @@
 package ThreadSafeUnsafe;
 
-import com.sun.corba.se.spi.logging.LogWrapperFactory;
-import sun.rmi.runtime.Log;
-
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

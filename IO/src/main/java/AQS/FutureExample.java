@@ -4,9 +4,9 @@ import java.util.concurrent.*;
 import java.util.logging.Logger;
 
 /**
- * 可以取消任务，查询任务是否取消
+ * ����ȡ�����񣬲�ѯ�����Ƿ�ȡ��
  *
- * 监视目标线程调用call的情况，可得到别的线程任务的返回值。
+ * ����Ŀ���̵߳���call��������ɵõ�����߳�����ķ���ֵ��
  *
  */
 public class FutureExample {

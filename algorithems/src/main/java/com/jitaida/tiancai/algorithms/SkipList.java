@@ -1,6 +1,5 @@
-package com.jitaida.tiancai;
+package com.jitaida.tiancai.algorithms;
 
-import java.util.LinkedList;
 import java.util.Random;
 
 public class SkipList {
@@ -13,21 +12,8 @@ public class SkipList {
         public SkipListEntry right;
         public SkipListEntry up;
         public SkipListEntry down;
-
         public static final String negInfi = "-oo";
         public static final String posInfi = "+oo";
-
-        public SkipListEntry(short level, String key, int value,
-                             SkipListEntry right, SkipListEntry down,
-                             SkipListEntry left, SkipListEntry up){
-            this.level = level;
-            this.key = key;
-            this.value = value;
-            this.left = left;
-            this.right = right;
-            this.up = up;
-            this.down = down;
-        }
 
         public SkipListEntry(String key, Integer value){
             this.key = key;

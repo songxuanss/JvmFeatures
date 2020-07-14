@@ -8,20 +8,20 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Logger;
 
 /**
- * 可重入锁，线程锁一次，计数器增加1
+ * �����������߳���һ�Σ�����������1
  *
  * Sychronize:
- * 1. JVM 实现
- * 2. 优化后和ReentrantLock类似
- * 3. 只能是非公平锁
- * 4. 只能是把全部线程唤醒
+ * 1. JVM ʵ��
+ * 2. �Ż����ReentrantLock����
+ * 3. ֻ���Ƿǹ�ƽ��
+ * 4. ֻ���ǰ�ȫ���̻߳���
  * ReentrantLock:
- * 1. JDK 实现
- * 2. 性能比较高，比老的Synchronize性能高
- * 3. 可以指定公平锁或者是非公平锁
- * 4. 有条件限制 condition, 可以分组唤醒需要唤醒的线程
- * 5. 提供中断等待锁的机制
- * 6. 实现是基于自旋锁，通过类似CAS的操作避免系统进入内核态的阻塞状态
+ * 1. JDK ʵ��
+ * 2. ���ܱȽϸߣ����ϵ�Synchronize���ܸ�
+ * 3. ����ָ����ƽ�������Ƿǹ�ƽ��
+ * 4. ���������� condition, ���Է��黽����Ҫ���ѵ��߳�
+ * 5. �ṩ�жϵȴ����Ļ���
+ * 6. ʵ���ǻ�����������ͨ������CAS�Ĳ�������ϵͳ�����ں�̬������״̬
  */
 public class ReentrantLockExample {
     public static List<String> arrayList = new ArrayList<>();

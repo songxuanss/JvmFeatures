@@ -13,8 +13,8 @@ import java.util.logging.Logger;
 
 /**
  *
- * æ‚²è§‚æ‰§è¡Œï¼Œå¦‚æœæœ‰readlockï¼Œé‚£ä¹ˆwritelockåˆ™ä¸€ç›´ç­‰å¾…
- * å®¹æ˜“é€ æˆé¥¥é¥¿
+ * ±¯¹ÛÖ´ĞĞ£¬Èç¹ûÓĞreadlock£¬ÄÇÃ´writelockÔòÒ»Ö±µÈ´ı
+ * ÈİÒ×Ôì³É¼¢¶ö
  *
  */
 public class ReentrantReadWriteLockExample {
