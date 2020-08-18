@@ -9,6 +9,7 @@ public class DynamicProxy implements InvocationHandler{
     public DynamicProxy(Object process){
         this.process = process;
     }
+
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         if (method.getName() == "doProcess"){
